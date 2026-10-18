@@ -1,6 +1,5 @@
-# Capstone_project_Navneet
-For MASAI project
 # Mamaearth Returns & Growth Intelligence Capstone Project
+*For MASAI project*
 
 This repository contains the complete end-to-end data engineering, SQL analytics, Pandas data wrangling/EDA pipeline, visualization suite, and automated Gemini AI narrator module (with a robust offline fallback) for the Mamaearth Returns & Growth Intelligence capstone.
 
