@@ -1,0 +1,8 @@
+### Situation
+    Mamaearth achieved a raw total revenue of ₹99,860.20, which adjusted down to a clean total revenue of ₹97,358.30 across 175 validated orders after a duplicate reconciliation delta of ₹2,501.90. Initial time-series trends pointed to January 2026 as an inflated peak of ₹29,582.10.
+
+    ### Complication
+    A deeper risk analysis revealed severe payment-method vulnerabilities, led by Cash on Delivery (COD) at a 44.4% return rate—nearly triple that of card payments. Multi-level segmentation exposed that COD risk is heavily concentrated in Tier-2 cities, surging to a staggering 54.5%. Furthermore, volume anomalies distorted our timeline: January's apparent revenue lead was an artifact of bulk orders, masking the true organic peak in March 2026 at ₹20,318.90.
+
+    ### Resolution
+    By implementing rigorous outlier detection before time-series forecasting, we corrected January's revenue to ₹11,637.10 and established March as premium peak performance. Regional operations and finance teams must now target high-risk COD Tier-2 segments with friction-reducing digital incentives or prepayment policies to curb returns and protect margins.
