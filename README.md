@@ -19,3 +19,14 @@ To set up the relational database and execute the core business report queries:
 1. Load and execute the schema script to create tables (`customers`, `products`, `orders`):
    ```sql
    SOURCE sql/schema.sql;
+SOURCE sql/seed_data.sql;
+SOURCE sql/report.sql;
+python analysis/clean_and_eda.py
+python analysis/visualize.py
+
+python narrator/generate_narrative.py
+$env:GEMINI_API_KEY="your_actual_api_key_here"
+python narrator/generate_narrative.py
+
+export GEMINI_API_KEY="your_actual_api_key_here"
+python narrator/generate_narrative.py
