@@ -53,12 +53,12 @@ To generate the Situation-Complication-Resolution (SCR) business report narrativ
   To use the live Gemini API model with locked parameters, set your API key as an environment variable or store it locally in `API.txt`:
   * **Windows (PowerShell):**
     ```powershell
-    $env:GEMINI_API_KEY="your_actual_api_key_here"
+    $env:GEMINI_API_KEY="api_key"
     python narrator/generate_narrative.py
     ```
   * **Mac / Linux / Bash:**
     ```bash
-    export GEMINI_API_KEY="your_actual_api_key_here"
+    export GEMINI_API_KEY="api_key"
     python narrator/generate_narrative.py
     ```
 
